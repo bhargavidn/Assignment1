@@ -51,7 +51,7 @@ height:100%;
 }
 .login-box {
   background-color: #ebebeb;
-  height: 55vh;
+  height: 68vh;
   position: absolute !important;
   right: 10%;
   top: 20%;
@@ -132,7 +132,7 @@ li:hover {
 }
 .search-Bar input {
   height: 10vh;
-  width: 35vw !important;
+  width: 100% !important;
 }
 .planet-list {
   margin-top: 50px;
