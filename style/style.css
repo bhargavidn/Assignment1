@@ -1,0 +1,169 @@
+html{
+    height:100%;
+}
+  .parent-div{
+  height:100%;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+height:100%;
+}
+#container > div {
+  height: 100% !important;
+}
+.myModal div {
+  border: 10px none red;
+  text-align: center;
+  border: 1px solid black;
+}
+.myModal div h1 {
+  margin-top: 20px;
+  font-size: 40px;
+  margin-bottom: 22px;
+}
+
+.myModal div button {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.myModal-title {
+  background-color: #1F1F1F;
+  height: 43px;
+}
+
+.myModal-title h4 {
+  color: #fff !important;
+  padding-top: 5px;
+}
+.btn-dark {
+  background-color: #6c757d;
+  color: white;
+  font-weight: bold;
+}
+.login-bg-img {
+  background: rgba(0, 0, 0, 0) url("/style/sat.jpg") no-repeat fixed center;
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  overflow: auto;
+}
+.login-box {
+  background-color: #ebebeb;
+  height: 55vh;
+  position: absolute !important;
+  right: 10%;
+  top: 20%;
+  width: 327px;
+}
+.login-box form {
+  padding-top: 70px;
+}
+.login-box label {
+  letter-spacing: 0.01em;
+  font-size: 30px;
+}
+
+.login-box form input {
+  height: 60px;
+
+  margin-top: -1px;
+}
+.login-box button {
+  border: 1px none;
+  border-radius: inherit;
+  box-sizing: border-box;
+  font-weight: bold;
+  height: 40px;
+  width: 99px;
+}
+.help-div {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+li {
+  padding: 10px;
+  overflow: auto;
+}
+
+li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+.page-header {
+  background-color: #6c757d;
+  height: 15vh;
+}
+.page-header h3 {
+  padding-top: 15px;
+}
+.pull-right{
+  text-align:right;
+}
+.pull-right button {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  color: white;
+  font-size: 40px;
+}
+.search-Bar {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  height: 18vh;
+  justify-content: center;
+  margin-top: 9vh;
+}
+.search-Bar nav {
+  height: 20vh;
+  width: 48vw;
+}
+.search-Bar input {
+  height: 10vh;
+  width: 35vw !important;
+}
+.planet-list {
+  margin-top: 50px;
+  width: 50vw !important;
+}
+.btn-outline-success {
+  border-color: #6c757d !important;
+  color: black !important;
+  font-size: 26px !important;
+  height: 10vh;
+  width: 10vw;
+  vertical-align: middle;
+}
+.btn-outline-success:hover {
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    color: #fff !important;
+}
+.search-Bar form {
+  padding-top: 10px;
+}
+.planet-detail {
+  background: #f7f7f7 none repeat scroll 0 0;
+  width: 100%;
+  margin-left: 15px;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid #f00;
+}
