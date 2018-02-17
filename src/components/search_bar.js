@@ -26,8 +26,7 @@ class SearchBar extends Component{
                      <input className="form-control mr-sm-2" type="text"
                      placeholder="Enter the planet"
                      onChange={event => this.onInputChange(event.target.value)} ref="searchinp"/>
-                     <button className="btn btn-outline-success my-2 my-sm-0"
-                     type="submit" onClick={this.onSubmit.bind(this)}>Search</button>
+                     
               </form>
             </nav>
         </div>
